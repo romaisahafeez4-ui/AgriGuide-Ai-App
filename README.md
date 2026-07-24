@@ -181,7 +181,7 @@ Keep the language clean, professional, and easy to understand for a farmer.
 
 > Replace the placeholder URLs below with your uploaded screenshot image links (e.g., hosted on GitHub, Imgur, or your own server).
 
-![Dashboard Overview — stat cards, upcoming tasks, and active crops](./Dashboard.png)
+![Dashboard Overview — stat cards, upcoming tasks, and active crops](./Dashbooard.png)
 
 ![AI Farming Assistant — conversational chat with Gemini](SCREENSHOT_ASSISTANT_URL)
 
