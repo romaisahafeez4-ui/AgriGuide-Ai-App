@@ -183,7 +183,7 @@ Keep the language clean, professional, and easy to understand for a farmer.
 
 ![Dashboard Overview — stat cards, upcoming tasks, and active crops](./Dashbooard.png)
 
-![AI Farming Assistant — conversational chat with Gemini](./AI Assistant)
+![AI Farming Assistant — conversational chat with Gemini](./AI Assistant.png)
 
 ![Plant Health Checker — AI disease analysis from a photo](SCREENSHOT_PLANT_HEALTH_URL)
 
