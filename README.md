@@ -183,7 +183,7 @@ Keep the language clean, professional, and easy to understand for a farmer.
 
 ![Dashboard Overview — stat cards, upcoming tasks, and active crops](./Dashbooard.png)
 
-![AI Farming Assistant](https://github.com)
+![AI Farming Assistant](./AIassistant.png)
 
 ![Plant Health Checker — AI disease analysis from a photo](SCREENSHOT_PLANT_HEALTH_URL)
 
