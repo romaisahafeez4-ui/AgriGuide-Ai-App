@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body {
+    @apply font-sans text-forest-950 bg-forest-50;
+    @apply dark:text-forest-50 dark:bg-forest-950;
+  }
+  ::selection {
+    @apply bg-forest-500/30;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply bg-white/70 backdrop-blur-xl border border-white/40 dark:bg-forest-900/60 dark:border-forest-800/60;
+  }
+  .glass-card {
+    @apply glass rounded-3xl shadow-soft;
+  }
+  .input-field {
+    @apply w-full rounded-2xl border border-forest-200 bg-white/80 px-4 py-3 text-forest-900 placeholder-forest-400 outline-none transition focus:border-forest-500 focus:ring-4 focus:ring-forest-500/10 dark:border-forest-800 dark:bg-forest-900/60 dark:text-forest-50 dark:placeholder-forest-500;
+  }
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-2xl bg-forest-600 px-5 py-3 font-semibold text-white shadow-soft transition hover:bg-forest-700 active:scale-[0.98] disabled:opacity-60 disabled:cursor-not-allowed;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-2xl border border-forest-200 bg-white/70 px-5 py-3 font-semibold text-forest-800 transition hover:bg-forest-50 active:scale-[0.98] dark:border-forest-800 dark:bg-forest-900/60 dark:text-forest-100 dark:hover:bg-forest-800/60;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-2xl px-4 py-2 font-medium text-forest-700 transition hover:bg-forest-100 dark:text-forest-200 dark:hover:bg-forest-800/60;
+  }
+  .chip {
+    @apply inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-semibold;
+  }
+  .skeleton {
+    @apply bg-gradient-to-r from-forest-100 via-forest-50 to-forest-100 dark:from-forest-800 dark:via-forest-900 dark:to-forest-800 bg-[length:200%_100%] animate-shimmer;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-forest-200 dark:bg-forest-800 rounded-full;
+}
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-forest-300 dark:bg-forest-700;
+}
