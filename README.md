@@ -185,7 +185,7 @@ Keep the language clean, professional, and easy to understand for a farmer.
 
 ![AI Farming Assistant](AIAssistant.png)
 
-![Plant Health Checker — AI disease analysis from a photo]()
+![Plant Health Checker — AI disease analysis from a photo](./PlantHealthChecker.png)
 
 ---
 
